@@ -1,5 +1,12 @@
-const takeANumber = (katzDeliLine, name) => {
-  katzDeliLine.push(name);
+// const takeANumber = (katzDeliLine, name) => {
+//   katzDeliLine.push(name);
+//   return 'Welcome, ' + name + '. You are number '
+//   + katzDeliLine.length + ' in line.';
+// };
+let number = 1;
+
+const takeANumber = katzDeliLine => {
+  katzDeliLine.push(number + 1);
   return 'Welcome, ' + name + '. You are number '
   + katzDeliLine.length + ' in line.';
 };
